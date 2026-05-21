@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 40px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: auto;
+}
+
+.logo-section h2 {
+  font-size: 16px;
+  color: #7c5c3b;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 18px;
+  color: #4b3621;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #d7c6a3;
+}
+
+.profile-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
