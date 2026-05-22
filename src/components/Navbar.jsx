@@ -1,12 +1,14 @@
-import "./Navbar.css";
-import logo from "../assets/logo.png";
+import "./Navbar.css"
+import logo from "../assets/logo-cafe.png"
 
 function Navbar() {
   return (
     <nav className="navbar">
+
       <div className="navbar-container">
+
         <div className="logo-section">
-          <img src={logo} alt="Logo Café" className="assets/logo.png" />
+          <img src={logo} alt="Logo Café" className="logo-img" />
         </div>
 
         <ul className="nav-links">
@@ -15,9 +17,11 @@ function Navbar() {
           <li>Nosotros</li>
           <li>Contacto</li>
         </ul>
+
       </div>
+
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
